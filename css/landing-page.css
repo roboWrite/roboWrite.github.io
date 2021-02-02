@@ -3,9 +3,12 @@
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
  */
-
+.img-fluid {
+  padding: 10px;
+  box-shadow: none !important;
+}
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 h1,
@@ -14,14 +17,15 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
 }
 
 header.masthead {
   position: relative;
   background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: url("https://images.unsplash.com/photo-1479920252409-6e3d8e8d4866?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwxMzI0OXwwfDF8c2VhcmNofDEzfHx0eXBpbmclMjBub3Rlc3xlbnwwfHx8&ixlib=rb-1.2.1&q=80&w=1080")
+    no-repeat center center;
   background-size: cover;
   padding-top: 8rem;
   padding-bottom: 8rem;
